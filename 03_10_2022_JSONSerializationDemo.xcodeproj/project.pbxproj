@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68C87A92292B7D53007373E9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C87A91292B7D53007373E9 /* SecondViewController.swift */; };
 		68CA24EA29262CA300345771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA24E929262CA300345771 /* AppDelegate.swift */; };
 		68CA24EC29262CA300345771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA24EB29262CA300345771 /* SceneDelegate.swift */; };
 		68CA24EE29262CA300345771 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CA24ED29262CA300345771 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		68C87A91292B7D53007373E9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		68CA24E629262CA300345771 /* 03_10_2022_JSONSerializationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 03_10_2022_JSONSerializationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68CA24E929262CA300345771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68CA24EB29262CA300345771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				68CA24FD29262E0100345771 /* Post.swift */,
 				68CA24FF29262EB600345771 /* PostTableViewCell.swift */,
 				68CA250029262EB600345771 /* PostTableViewCell.xib */,
+				68C87A91292B7D53007373E9 /* SecondViewController.swift */,
 			);
 			path = 03_10_2022_JSONSerializationDemo;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68C87A92292B7D53007373E9 /* SecondViewController.swift in Sources */,
 				68CA24EE29262CA300345771 /* ViewController.swift in Sources */,
 				68CA24EA29262CA300345771 /* AppDelegate.swift in Sources */,
 				68CA250129262EB600345771 /* PostTableViewCell.swift in Sources */,

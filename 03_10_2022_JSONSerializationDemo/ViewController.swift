@@ -86,10 +86,6 @@ extension ViewController : UITableViewDataSource{
         postTableViewCell.postBodyLabel.text = posts[indexPath.row].body
         
        /* if postTableViewCell.editingStyle == .delete{
-            
-            
-            
-            
         }*/
             return postTableViewCell
     }

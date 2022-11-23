@@ -45,7 +45,7 @@
                 <outlet property="postIdLabel" destination="K5o-b3-ZlZ" id="uU0-4S-Si4"/>
                 <outlet property="postTitleLabel" destination="ARD-FQ-K7b" id="hIn-xR-4tL"/>
             </connections>
-            <point key="canvasLocation" x="-274.61538461538458" y="31.990521327014218"/>
+            <point key="canvasLocation" x="-450" y="18"/>
         </tableViewCell>
     </objects>
 </document>

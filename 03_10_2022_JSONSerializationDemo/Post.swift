@@ -6,8 +6,19 @@
 //
 
 import Foundation
-struct Post{
+struct Post : Decodable{
     var id : Int
     var title: String
     var body : String
 }
+
+
+/*struct APIResponseForQuotes {
+    var quotes : [Quote]
+    var limit : Int
+    var title : String
+}
+
+struct Quote {
+    var id : Int
+}*/
