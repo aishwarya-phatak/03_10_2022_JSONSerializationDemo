@@ -84,10 +84,17 @@ extension ViewController : UITableViewDataSource{
         postTableViewCell.postIdLabel.text = String(posts[indexPath.row].id)
         postTableViewCell.postTitleLabel.text = posts[indexPath.row].title
         postTableViewCell.postBodyLabel.text = posts[indexPath.row].body
-        
-       /* if postTableViewCell.editingStyle == .delete{
-        }*/
             return postTableViewCell
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete{
+            tableViewToDisplayPosts.beginUpdates()
+            posts.remove(at: indexPath.row)
+            tableViewToDisplayPosts.deleteRows(at: [indexPath], with: UITableView.RowAnimation.fade)
+            print(posts.count)
+            tableViewToDisplayPosts.endUpdates()
+        }
     }
 }
 
